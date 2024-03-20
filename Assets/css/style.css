@@ -3,3 +3,14 @@
     background-position: center;
     object-fit: cover;
 }
+.img-acceuil > img{
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+}
+.img-acceuil, .text-acceuil {
+    padding : unset;
+}
+nav {
+    background-color: #19252B;
+}

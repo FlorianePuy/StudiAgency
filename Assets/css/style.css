@@ -17,9 +17,6 @@
 .img-acceuil, .text-acceuil {
     padding : unset;
 }
-.text-acceuil {
-    box-sizing: border-box;
-}
-nav {
+nav,.card-img-top {
     background-color: #19252B;
 }

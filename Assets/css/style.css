@@ -1,3 +1,9 @@
+@media screen and (max-width: 576px) {
+    *, *::before,
+    *::after {
+        box-sizing: content-box;
+    }
+}
 .carousel-item > img {
     max-height: 90vh;
     background-position: center;
@@ -10,6 +16,9 @@
 }
 .img-acceuil, .text-acceuil {
     padding : unset;
+}
+.text-acceuil {
+    box-sizing: border-box;
 }
 nav {
     background-color: #19252B;

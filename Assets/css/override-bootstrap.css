@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+    *, *::before,
+    *::after {
+        box-sizing: content-box;
+        padding: 0;
+        margin: 0;
+    }
+}
+.carousel-item > img {
+    max-height: 90vh;
+    background-position: center;
+    object-fit: cover;
+}
+.img-acceuil > img{
+    width: 100%;
+    background-position: center;
+    object-fit: contain;
+}
+.acceuil {
+    margin: 0;
+    padding: 0;
+}
+main, .img-acceuil {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+nav,.card-img-top {
+    background-color: #19252B;
+}
+#contact {
+    background: rgb(25, 37, 43);
+    background: radial-gradient(circle, rgba(25, 37, 43, 1) 49%, rgba(243, 125, 18, 1) 50%, rgba(25, 37, 43, 1) 51%);
+}
+.card, .card-deck{
+    padding: 0;
+}
+section, #formations {
+    padding-right: 0;
+    padding-left: 0;
+}
+.row {
+    --bs-gutter-x: 0;
+}
